@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    background-image: url(/Images/img-bglogin.jpg);
+    background-color: #cccccc;
+    height: 968px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login {
+    width: 500px;
+    height: 70%;
+    background-image: url(/Images/img-Login.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    box-shadow: 5px 5px 5px 5px rgba(82, 82, 82, 0.205);
+}
+
+.login-btn {
+    border: none;
+    background-color: rgb(19, 159, 224);
+    box-shadow: 5px 5px 5px rgba(82, 82, 82, 0.205);
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    color: #fff;
+    margin-top: 0.5rem;
+    outline: none;
+    width: 100px;
+    height: 40px;
+}
+
+.login form {
+    margin-bottom: 5rem;
+    display: inline-table;
+    width: 65%;
+}
+
+.login-fail {
+    color: red;
+    height: 25px;
+}
+
+.input-box {
+    border-bottom: 1px solid rgb(112, 112, 112);
+}
+
+.input-box input {
+	padding-left: 20px;
+    border: none;
+    width: 90%;
+}
+
+#show {
+    display: none;
+}
+
+.flash-alert {
+    position: absolute;
+    right: 80px;
+    background-color: #fff;
+    padding: 0 5px;
+}
+
+i {
+    color: rgb(112, 112, 112);
+}
+
+form label {
+    margin-top: 20px;
+    color: rgb(112, 112, 112);
+}
+
+input:focus {
+    outline: none;
+}
+
+button:focus {
+    outline: none;
+}

@@ -1,0 +1,28 @@
+.item-selects {
+	width: 116px; 
+	outline :none; 
+	padding-bottom: 5px;
+	margin-left: 30px;
+}
+
+.boder-right{
+	border-right: 1px solid;
+	padding-right: 35px;
+}
+
+a.button-color1 {
+	background-color: #0bb965;
+}
+
+a.button-color3 {
+	background-color: #33ccff;
+}
+
+a.button-color2 {
+	background-color: #FFD700;
+<<<<<<< HEAD
+}
+=======
+}
+
+>>>>>>> dev

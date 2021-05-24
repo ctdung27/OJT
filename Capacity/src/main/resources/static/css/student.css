@@ -1,0 +1,79 @@
+.capacity-thead th {
+	background-color: #0431B4;
+	color: white;
+	text-align: center;
+}
+
+.capacity-tbody td {
+	text-align: center;
+}
+
+input:focus {
+	outline: none;
+}
+
+.bootstrap-tagsinput {
+	border: none;
+	box-shadow: none;
+	margin-left: 10px;
+}
+
+.item-search select {
+	margin-top: 6px;
+	color: #797979;
+	margin-inline-start: 10px;
+	margin-inline-end: 10px;
+}
+
+.item-search input {
+	border: none;
+	border-bottom: 1px groove;
+}
+
+.label-info {
+	background-color: #5bc0de;
+	padding: 3px;
+}
+
+.bootstrap-tagsinput .tag {
+	font-size: 20px;
+	border-radius: 10px;
+	box-shadow: 2px 2px 2px 2px rgba(82, 82, 82, 0.205);
+}
+/* Pagination */
+.pagination {
+ 	margin-right: 110px;
+}
+.page-item button{
+	border-radius: 10px;
+	border: none;
+	outline: none;
+}
+.page-item button:hover{
+	background-color: #51c4d3;
+	color: #fff;
+}
+.pages-link{
+	position: relative;
+    display: block;
+    padding: 0.5rem 0.75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: #000;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+}
+/* End Pagination */
+.bootstrap-tagsinput input{
+	height: 0;
+}
+#hide_input{
+	display: inline; 
+	height: 0; 
+	border: none; 
+	outline: none;
+	color: transparent;
+}
+a.fa.fa-arrow-left{
+	display: none;
+}
